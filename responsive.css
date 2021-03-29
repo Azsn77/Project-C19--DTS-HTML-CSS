@@ -1,0 +1,148 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  .heading h2 {
+    font-size: 20px;
+  }
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  .destination {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .trips {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  
+  .header-right {
+    display: none;
+  }
+  
+ span.menu-icon {
+    display: block;
+    /* float: right; */
+    margin-right: -75px;
+    color: black;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .facebook {
+    margin-bottom: 5;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 45px;
+    line-height: 36px;
+    text-align: center;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .lesson {
+    width: 100%;
+  }
+  .destination {
+    width: 100%;
+  }
+
+  .trips {
+    width: 100%;
+  }
+
+  .container h1 {
+    margin-top: 20px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+  }
+  
+  footer {
+    text-align: center;
+  }
+
+  .content-wrapper {
+    padding: 10px ;
+    text-align: center;
+  }
+
+  .container_img_100 {
+    width: 100%;
+  }
+ 
+}
+
+
+/* no 5 */
+/*for table*/
+@media all and (max-width: 1000px) {
+    .container {
+        width: 50%;
+    }
+}
+
+/*for smartphone*/
+@media all and (max-width: 670px) {
+    .footer-top {
+        height: 100%;
+    }
+
+    .container-op {
+        width: 100%;
+    }
+
+    .gallery-item img {
+      height: 100px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .contents-item {
+        width: 100%;
+        padding: 10px 0px;
+    }
+
+    .contents-item h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .double ul {
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+    }
+
+    .copy-right {
+        text-align: center;
+    }
+
+    .message-wrapper {
+      padding: 0px;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    
+}
+
+
